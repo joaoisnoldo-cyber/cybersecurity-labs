@@ -1,0 +1,7 @@
+frase = input("Digite uma frase: ")
+print("Frase:", frase)
+print("Caracteres:", len(frase))
+print("Palavras:", len(frase.split()))
+print("Maiúsculo:", frase.upper())
+print("Minúsculo:", frase.lower())
+print("Sem Espaços:", len(frase.replace(" ","")))
