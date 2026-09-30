@@ -2,7 +2,7 @@
 
 Foi desenvolvido um exemplo de comunicação utilizando sockets TCP em Python.
 
-##Servidor
+## Servidor
 
 O servidor foi configurado para utilizar o endereço 127.0.0.1 e a porta 5000.
 
