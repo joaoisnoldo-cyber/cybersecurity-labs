@@ -43,19 +43,4 @@ Por isso, a comunicação realizada neste laboratório utiliza TCP.
 
 Além disso, o funcionamento observado no laboratório é compatível com uma comunicação TCP: o servidor utiliza listen() e accept() para aguardar e aceitar uma conexão, enquanto o cliente utiliza connect() para estabelecer essa conexão.
 
-Fluxo utilizado
-Cliente
-   │
-   │ connect()
-   ▼
-Servidor
-   │
-   │ accept()
-   ▼
-Conexão TCP estabelecida
-   │
-   ├── send()
-   │
-   └── recv()
-
 Dessa forma, o laboratório não apresenta apenas uma comunicação genérica entre cliente e servidor. Ele demonstra uma comunicação cliente/servidor utilizando um socket TCP.
