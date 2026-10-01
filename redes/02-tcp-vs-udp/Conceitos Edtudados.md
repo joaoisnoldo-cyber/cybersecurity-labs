@@ -37,6 +37,7 @@ socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 Nesse contexto:
 
 AF_INET indica o uso de endereços IPv4.
+
 SOCK_STREAM indica um socket orientado a fluxo, utilizado para comunicação TCP.
 
 Por isso, a comunicação realizada neste laboratório utiliza TCP.
